@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './UsersList.css';
+import styles from './UserList.css';
 
 const UsersList = props => ( //// to co trzeba wyrenderować );
     <div className={ styles.Users }>
