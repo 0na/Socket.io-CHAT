@@ -1,6 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
-
+const OptimizeJsPlugin = require('optimize-js-plugin');
 module.exports = {
 
     entry: './client/index.js',
