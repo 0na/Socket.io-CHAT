@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+    margin: 0;
+    font-family: 'Sans', serif;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+
+}
+
+.AppHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    background-color: #d4d4d6;
+}
+
+.AppTitle {
+    display: flex;
+    text-transform: uppercase;
+    width: 25vw;
+    border: 1px solid #fff;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    font-weight: 600;
+    height: 70px;
+    text-align: center;
+
+}
+
+.AppRoom {
+    display: flex;
+    text-transform: uppercase;
+    width: 75vw;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    font-weight: 600;
+    height: 70px;
+    text-align: center;
+    border: 1px solid #fff;
+
+}
+
+.AppBody {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.UsersList {
+    box-sizing: border-box;
+}
+
+.MessageWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    box-sizing: border-box;
+}

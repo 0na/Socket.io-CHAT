@@ -13,7 +13,7 @@ const MessageList = props => (
         {
             props.messages.map((message, i) => {
                 return (
-                    <Message
+                    <Message className={ styles.Message }
                         key={ i }
                         from={ message.from }
                         text={ message.text }
